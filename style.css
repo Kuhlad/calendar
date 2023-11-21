@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calendar {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.day {
+    width: 14%;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.cells {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+}
+
+.cell {
+    width: 12.28%;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.comment {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 12px;
+    color: #333;
+}
+
+.calendar-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-buttons button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calendar-buttons button:hover {
+    background-color: #ddd;
+  }
+  
